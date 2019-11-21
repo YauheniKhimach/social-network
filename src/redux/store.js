@@ -35,7 +35,7 @@ let store = {
         return this._state;
     },
     _callSubscriber() {
-        console.log('state')
+        console.log('store.js')
     },
     subscribe(observer) {
         this._callSubscriber = observer
