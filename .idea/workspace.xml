@@ -2,16 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0f4401a7-3537-4924-95ee-01d3dad440c8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/redux/redux-store.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Dialogs/DialogsContainer.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Profile/MyPosts/MyPostsContainer.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Dialogs/Dialogs.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dialogs/Dialogs.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Profile/MyPosts/MyPosts.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/MyPosts/MyPosts.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Profile/Profile.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/Profile.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/dialogs-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/dialogs-reducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/profile-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/profile-reducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/sidebar-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/sidebar-reducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/state.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/store.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -33,7 +30,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/Dialogs" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -44,6 +41,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\it-cotial-cet\network\src\components\Dialogs" />
+      <recent name="F:\it-cotial-cet\network\src\components\Profile\MyPosts" />
       <recent name="F:\it-cotial-cet\network\src\redux" />
     </key>
   </component>
@@ -96,7 +95,8 @@
       <workItem from="1573940042363" duration="97000" />
       <workItem from="1573941029086" duration="1297000" />
       <workItem from="1574281848122" duration="1455000" />
-      <workItem from="1574284886890" duration="3139000" />
+      <workItem from="1574284886890" duration="4129000" />
+      <workItem from="1574615526792" duration="6739000" />
     </task>
     <task id="LOCAL-00001" summary="dispatch and action">
       <created>1573596741290</created>
@@ -126,7 +126,14 @@
       <option name="project" value="LOCAL" />
       <updated>1573930833974</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="redux">
+      <created>1574365786835</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1574365786835</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -149,6 +156,7 @@
     <MESSAGE value="dispatch and action" />
     <MESSAGE value="add message" />
     <MESSAGE value="create reducer" />
-    <option name="LAST_COMMIT_MESSAGE" value="create reducer" />
+    <MESSAGE value="redux" />
+    <option name="LAST_COMMIT_MESSAGE" value="redux" />
   </component>
 </project>
