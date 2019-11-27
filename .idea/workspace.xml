@@ -3,12 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="0f4401a7-3537-4924-95ee-01d3dad440c8" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/StoreContext.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Dialogs/DialogsContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dialogs/DialogsContainer.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Profile/MyPosts/MyPostsContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/MyPosts/MyPostsContainer.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/profile-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/profile-reducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/redux-store.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/redux-store.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -96,7 +93,7 @@
       <workItem from="1573941029086" duration="1297000" />
       <workItem from="1574281848122" duration="1455000" />
       <workItem from="1574284886890" duration="4129000" />
-      <workItem from="1574615526792" duration="14965000" />
+      <workItem from="1574615526792" duration="17908000" />
     </task>
     <task id="LOCAL-00001" summary="dispatch and action">
       <created>1573596741290</created>
@@ -147,7 +144,14 @@
       <option name="project" value="LOCAL" />
       <updated>1574787202415</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="connect, mapStateToProps, mapDispatchTooProps">
+      <created>1574798706843</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1574798706843</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -173,6 +177,7 @@
     <MESSAGE value="redux" />
     <MESSAGE value="container component" />
     <MESSAGE value="Context API" />
-    <option name="LAST_COMMIT_MESSAGE" value="Context API" />
+    <MESSAGE value="connect, mapStateToProps, mapDispatchTooProps" />
+    <option name="LAST_COMMIT_MESSAGE" value="connect, mapStateToProps, mapDispatchTooProps" />
   </component>
 </project>
