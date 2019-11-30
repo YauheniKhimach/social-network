@@ -3,9 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="0f4401a7-3537-4924-95ee-01d3dad440c8" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Dialogs/Dialogs.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dialogs/Dialogs.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Dialogs/DialogsContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dialogs/DialogsContainer.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/dialogs-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/dialogs-reducer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/redux/profile-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/profile-reducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/redux-store.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/redux-store.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,7 +28,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/Dialogs" />
+    <property name="last_opened_file_path" value="F:/promises" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -93,7 +94,8 @@
       <workItem from="1573941029086" duration="1297000" />
       <workItem from="1574281848122" duration="1455000" />
       <workItem from="1574284886890" duration="4129000" />
-      <workItem from="1574615526792" duration="17908000" />
+      <workItem from="1574615526792" duration="18218000" />
+      <workItem from="1575043743939" duration="5511000" />
     </task>
     <task id="LOCAL-00001" summary="dispatch and action">
       <created>1573596741290</created>
@@ -151,7 +153,14 @@
       <option name="project" value="LOCAL" />
       <updated>1574798706843</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="state copy in profileReducer">
+      <created>1574886859463</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1574886859477</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -178,6 +187,7 @@
     <MESSAGE value="container component" />
     <MESSAGE value="Context API" />
     <MESSAGE value="connect, mapStateToProps, mapDispatchTooProps" />
-    <option name="LAST_COMMIT_MESSAGE" value="connect, mapStateToProps, mapDispatchTooProps" />
+    <MESSAGE value="state copy in profileReducer" />
+    <option name="LAST_COMMIT_MESSAGE" value="state copy in profileReducer" />
   </component>
 </project>
