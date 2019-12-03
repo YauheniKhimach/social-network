@@ -93,7 +93,7 @@
       <workItem from="1574281848122" duration="1455000" />
       <workItem from="1574284886890" duration="4129000" />
       <workItem from="1574615526792" duration="18218000" />
-      <workItem from="1575043743939" duration="19165000" />
+      <workItem from="1575043743939" duration="21142000" />
     </task>
     <task id="LOCAL-00001" summary="dispatch and action">
       <created>1573596741290</created>
@@ -179,7 +179,14 @@
       <option name="project" value="LOCAL" />
       <updated>1575397449561</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="side effect">
+      <created>1575398738874</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1575398738874</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -210,6 +217,7 @@
     <MESSAGE value="state copy in dialogReducer" />
     <MESSAGE value="User Page" />
     <MESSAGE value="users API" />
-    <option name="LAST_COMMIT_MESSAGE" value="users API" />
+    <MESSAGE value="side effect" />
+    <option name="LAST_COMMIT_MESSAGE" value="side effect" />
   </component>
 </project>
