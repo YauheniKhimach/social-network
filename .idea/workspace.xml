@@ -93,7 +93,7 @@
       <workItem from="1574281848122" duration="1455000" />
       <workItem from="1574284886890" duration="4129000" />
       <workItem from="1574615526792" duration="18218000" />
-      <workItem from="1575043743939" duration="21142000" />
+      <workItem from="1575043743939" duration="22117000" />
     </task>
     <task id="LOCAL-00001" summary="dispatch and action">
       <created>1573596741290</created>
@@ -186,7 +186,14 @@
       <option name="project" value="LOCAL" />
       <updated>1575398738874</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="class component (extends React.Component)">
+      <created>1575403646621</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1575403646621</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -218,6 +225,7 @@
     <MESSAGE value="User Page" />
     <MESSAGE value="users API" />
     <MESSAGE value="side effect" />
-    <option name="LAST_COMMIT_MESSAGE" value="side effect" />
+    <MESSAGE value="class component (extends React.Component)" />
+    <option name="LAST_COMMIT_MESSAGE" value="class component (extends React.Component)" />
   </component>
 </project>
