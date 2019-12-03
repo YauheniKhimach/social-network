@@ -1,44 +1,16 @@
 import React from 'react';
 import styles from './users.module.css';
+import * as axios from "axios";
+import userPhoto from '../../assets/images/users.jpg'
 
 let Users = (props) => {
 
     if (props.users.length === 0) {
-        props.setUsers([
-                {
-                    id: 1,
-                    photoUrl: 'http://pm1.narvii.com/6889/74979d4d2744ec6e27995b6e866f091d04c0b40cr1-515-414v2_uhq.jpg',
-                    followed: false,
-                    fullName: 'Max',
-                    status: 'I\'m student',
-                    location: {city: 'Minsk', country: 'Belarus'}
-                },
-                {
-                    id: 2,
-                    photoUrl: 'http://pm1.narvii.com/6889/74979d4d2744ec6e27995b6e866f091d04c0b40cr1-515-414v2_uhq.jpg',
-                    followed: true,
-                    fullName: 'Nastya',
-                    status: 'I\'m student',
-                    location: {city: 'Minsk', country: 'Belarus'}
-                },
-                {
-                    id: 3,
-                    photoUrl: 'http://pm1.narvii.com/6889/74979d4d2744ec6e27995b6e866f091d04c0b40cr1-515-414v2_uhq.jpg',
-                    followed: true,
-                    fullName: 'Nikita',
-                    status: 'I\'m student',
-                    location: {city: 'Moscow', country: 'Russia'}
-                },
-                {
-                    id: 4,
-                    photoUrl: 'http://pm1.narvii.com/6889/74979d4d2744ec6e27995b6e866f091d04c0b40cr1-515-414v2_uhq.jpg',
-                    followed: true,
-                    fullName: 'Sasha',
-                    status: 'I\'m sportsmen',
-                    location: {city: 'Minsk', country: 'Belarus'}
-                },
-            ]
-        )
+        axios.get('https://social-network.samuraijs.com/api/1.0/users').then(response =>{
+
+            props.setUsers(response.data.items)
+        })
+
     }
 
     return <div>
@@ -46,7 +18,7 @@ let Users = (props) => {
             props.users.map(u => <div key={u.id}>
                 <span>
                 <div>
-                    <img src={u.photoUrl} className={styles.userPhoto}/>
+                    <img src={u.photos.small !=null ? u.photos.small: userPhoto} className={styles.userPhoto}/>
                 </div>
                 <div>
                     {u.followed
@@ -57,12 +29,12 @@ let Users = (props) => {
             </span>
                 <span>
                     <spam>
-                        <div>{u.fullName}</div>
+                        <div>{u.name}</div>
                         <div>{u.status}</div>
                     </spam>
                     <spam>
-                        <div>{u.location.country}</div>
-                        <div>{u.location.city}</div>
+                        <div>{'u.location.country'}</div>
+                        <div>{'u.location.city'}</div>
                     </spam>
                 </span>
             </div>)
